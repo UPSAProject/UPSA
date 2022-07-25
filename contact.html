@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PROJECT / contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&family=Inter:wght@500;800&family=Open+Sans:wght@500&family=Oswald:wght@300&family=Trispace:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <section id="contact" class="py-3">
+            <div class="container">
+                <h1 class="i-heading">
+                    <span class="text-primary">Contact</span>Us
+                </h1>
+                <p>Please fill out the form below to contact us</p>
+                <form action="process.php">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea type="text" name="message" id="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn">submit</button>
+                </form>
+            </div>
+        </section>
+        <div class="pt"></div>
+
+        <section id="contact-info" class="bg-dark">
+            <div class="container">
+                <div class="box">
+                    <i class="fas fa-hotel fa-3x"></i>
+                    <h3>Location</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis sint quaerat nihil? Quam ad illo
+                        minima quia commodi dignissimos, eum neque quas, officiis itaque perspiciatis obcaecati
+                        voluptatibus
+                        dolor dolore dolorem.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-phone fa-3x"></i>
+                    <h3>Phone Number</h3>
+                    <p>+91 01234 56789</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-envelope fa-3x"></i>
+                    <h3>Email Address</h3>
+                    <p>hotel2022@gmail.com</p>
+                </div>
+            </div>
+        </section>
+    </header>
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="#"><i class="icon ion-social-instagram"></i></a>
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="#"><i class="icon ion-social-snapchat"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy policy</a></li>
+            </ul>
+            <p class="copyright">Hotel &copy;2022, All rights are Reserved</p>
+        </footer>
+</body>
+
+</html>
